@@ -2,6 +2,7 @@
 
 use tracing::info;
 
+/// Payout record for one miner.
 pub struct Payout {
     pub miner: String,
     pub shares: u64,
